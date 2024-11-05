@@ -1,24 +1,3 @@
-"""
-Clean Data Function
-Create a clean_data function. This function should perform the following actions:
-
-Read the existing player data from the PLAYERS constants provided in constants.py
-Clean the player data using copy.deepcopy().
-Save the cleaned data to a new collection.
-Data to be cleaned:
-
-Height: This should be saved as an integer
-Experience: This should be saved as a boolean value (True or False)
-HINT: Think Lists with nested Dictionaries might be one way.
-
-NOTE
-Ensure you do not directly modify the data in PLAYERS or TEAMS constants. 
-This data you should iterate and read from to build your own collection and would be 
-ideal to clean the data as you loop over it building your new collection.
-"""
-
-#rom practice_data_cleaning_data import data #data is the list name here
-#https://teamtreehouse.com/library/overwriting-data-in-python  read this for copy.deepcopy()
 import copy
 from constants import TEAMS
 from constants import PLAYERS
